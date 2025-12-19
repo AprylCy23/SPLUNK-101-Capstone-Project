@@ -21,7 +21,7 @@ Windows Task Scheduler logs for scheduled task creation detection
 Network traffic analysis for identifying suspicious RDP connections from IP 172.16.0.184
 
 # Investigation Summary
-# Findings
+Findings
 Time of Report: 2025-10-15 13:00:00 UTC
 Affected Host: FRONTDESK-PC1
 Compromised User: Ryan.Adams
@@ -29,7 +29,7 @@ IOC IP Address: 172.16.0.184
 Malicious File: python.exe (located in C:\Users\Ryan.Adams\Music)
 Persistence Mechanism: Scheduled Task "PythonUpdate"
 
-# Attack Timeline
+Attack Timeline
 2025-10-15 12:00:00 UTC to 12:52:11 UTC – Multiple failed logon attempts detected (Brute force attack pattern)
 2025-10-15 12:52:12 UTC – Successful authentication from IP 172.16.0.184 to Ryan.Adams account
 2025-10-15 13:02:14 UTC – Task Scheduler service accessed
