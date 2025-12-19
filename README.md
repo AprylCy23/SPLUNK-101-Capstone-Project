@@ -1,4 +1,4 @@
-# SPLUNK-101-Capstone-Project
+# SPLUNK-101-Capstone
 Suspicious Mouse Movement Investigation
 
 # Objective
